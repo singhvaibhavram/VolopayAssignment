@@ -1,0 +1,26 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.2em;
+  grid-auto-rows: auto;
+}
+
+.inner-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5em;
+  grid-auto-rows: auto;
+}
+
+.inner-grid > div{
+
+}
+
+.grid > div{
+  
+  padding: 1em;
+}
+
+.grid > div:nth-child(odd){
+
+}
